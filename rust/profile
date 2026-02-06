@@ -5,8 +5,9 @@ if [ -n "$BASH_VERSION" -a -n "$PS1" ]; then
       . "$HOME/.bashrc"
     fi
 fi
-
 ## According to https://stackoverflow.com/questions/321348 :
 ## `-a` when used as a binary operator is the 'and' connective.
 ## When as unary ─ tests for a file's existence.
 
+## Empty line and these comments to separate an entry
+## that is added by the rust installation instructions.
